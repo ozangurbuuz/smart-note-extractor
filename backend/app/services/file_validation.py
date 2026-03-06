@@ -9,7 +9,7 @@ def validate_file(file_name: str, file_bytes: bytes) -> None:
     extension = Path(file_name).suffix.lower()
 
     if extension not in ALLOWED_EXTENSIONS:
-        raise HTTPException(status_code=400, detail="Only PDF and TXT files are supported")
+        raise HTTPException(status_code=400, detail="Only PDF, TXT, and DOCX files are supported")
 
     if len(file_bytes) == 0:
         raise HTTPException(status_code=400, detail="Uploaded file is empty")

@@ -6,6 +6,10 @@ Smart Note Extractor is a full-stack NLP project where users upload a `PDF` or `
 2. Bullet-point notes
 3. Keywords
 
+## Planning Docs
+
+- MVP and RAG-ready implementation plan: `docs/MVP_RAG_READY_PLAN.md`
+
 This MVP uses **traditional NLP only** (no OpenAI API, no paid AI services).
 
 ## Tech Stack
